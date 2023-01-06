@@ -86,7 +86,8 @@ package «democonsumer» {
 @[default_target]
 lean_exe «democonsumer» {
   -- add executable configuration options here
-}```
+ }
+```
 
 
 # Cleaning up the .gitignore for commiting

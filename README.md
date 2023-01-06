@@ -60,13 +60,9 @@ package «democonsumer» {
   -- add package configuration options here
 }
 
-lean_lib «Democonsumer» {
-  -- add library configuration options here
-}
-
 @[default_target]
 lean_exe «democonsumer» {
-  root := `Main
+  -- add executable configuration options here
 }
 ```
 
@@ -75,6 +71,7 @@ Alternatively pulling from github
 Add the line `require demolib from git "https://github.com/userJY/demolibLean.git"`
 
 lakefile.lean
+
 
 ```
 import Lake
@@ -86,15 +83,10 @@ package «democonsumer» {
   -- add package configuration options here
 }
 
-lean_lib «Democonsumer» {
-  -- add library configuration options here
-}
-
 @[default_target]
 lean_exe «democonsumer» {
-  root := `Main
-}
-```
+  -- add executable configuration options here
+}```
 
 
 # Cleaning up the .gitignore for commiting
